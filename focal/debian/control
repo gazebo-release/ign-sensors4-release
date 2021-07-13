@@ -7,7 +7,7 @@ Build-Depends: cmake,
                doxygen,
                pkg-config,
                debhelper (>= 9),
-               libignition-cmake2-dev,
+               libignition-cmake2-dev (>= 2.8.0),
                libignition-common3-events-dev,
                libignition-common3-profiler-dev,
                libignition-math6-dev (>= 6.6.0),
@@ -25,7 +25,7 @@ Homepage: http://ignitionrobotics.org/
 Package: libignition-sensors4-core-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
@@ -55,7 +55,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Shared lib
 Package: libignition-sensors4-air-pressure-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-sensors4-core-dev,
          libsdformat10-dev,
@@ -83,7 +83,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib air-pr
 Package: libignition-sensors4-altimeter-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-sensors4-core-dev,
          libsdformat10-dev,
@@ -112,7 +112,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib altime
 Package: libignition-sensors4-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
@@ -143,7 +143,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib Camera
 Package: libignition-sensors4-depth-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
@@ -174,7 +174,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib depth-
 Package: libignition-sensors4-imu-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-sensors4-core-dev,
@@ -204,7 +204,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib imu
 Package: libignition-sensors4-lidar-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
@@ -235,7 +235,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib lidar
 Package: libignition-sensors4-gpu-lidar-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
@@ -267,7 +267,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib gpu-li
 Package: libignition-sensors4-logical-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
@@ -298,7 +298,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib logica
 Package: libignition-sensors4-magnetometer-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-sensors4-core-dev,
@@ -327,7 +327,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib magnet
 Package: libignition-sensors4-rendering-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-sensors4-core-dev,
@@ -356,7 +356,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib render
 Package: libignition-sensors4-rgbd-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-msgs6-dev,
          libignition-sensors4-core-dev,
          libsdformat10-dev,
@@ -384,7 +384,7 @@ Description: Ignition Sensors classes and functions for robot apps - Lib rgbd-ca
 Package: libignition-sensors4-thermal-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.8.0),
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
